@@ -22,9 +22,9 @@ Most of my production work (ERP integrations, internal data platform, mobile app
 
 <div align="center">
 
-[![aura-core](https://img.shields.io/badge/open_source-aura--core-2ea44f?style=for-the-badge)](https://github.com/JordanSerafini/aura-core)
-[![aura-android](https://img.shields.io/badge/open_source-aura--android-2ea44f?style=for-the-badge)](https://github.com/JordanSerafini/aura-android)
-[![case studies](https://img.shields.io/badge/read-the_case_studies-0A66C2?style=for-the-badge)](https://github.com/JordanSerafini/aura-core/tree/main/docs)
+[![aura-core](https://img.shields.io/badge/open_source-aura--core-2ea44f?style=for-the-badge)](https://github.com/TinkerBell-90/aura-core)
+[![aura-android](https://img.shields.io/badge/open_source-aura--android-2ea44f?style=for-the-badge)](https://github.com/TinkerBell-90/aura-android)
+[![case studies](https://img.shields.io/badge/read-the_case_studies-0A66C2?style=for-the-badge)](https://github.com/TinkerBell-90/aura-core/tree/main/docs)
 
 </div>
 
@@ -55,13 +55,13 @@ flowchart LR
       <h4>🔔 Proactive, and able to stop</h4>
       It speaks first, then learns from what I ignore or reject.<br/><br/>
       <sub>341 suggestions in 30 days, 17 explicitly rejected.</sub><br/>
-      <a href="https://github.com/JordanSerafini/aura-core/blob/main/docs/proactive.md">Read the case study</a>
+      <a href="https://github.com/TinkerBell-90/aura-core/blob/main/docs/proactive.md">Read the case study</a>
     </td>
     <td width="50%" valign="top">
       <h4>🌙 Night loop with mandatory review</h4>
       Autonomous sessions overnight. A model-free gate (parse and dry-run merge) decides what lands.<br/><br/>
       <sub>218 missions over 28 nights, 39 % with an effect someone else verified, 0 reverts.</sub><br/>
-      <a href="https://github.com/JordanSerafini/aura-core/blob/main/docs/night-loop.md">Read the case study</a>
+      <a href="https://github.com/TinkerBell-90/aura-core/blob/main/docs/night-loop.md">Read the case study</a>
     </td>
   </tr>
   <tr>
@@ -69,13 +69,13 @@ flowchart LR
       <h4>📓 A vault Claude keeps current</h4>
       Markdown notes with generated sections that scripts and sessions rewrite instead of piling up.<br/><br/>
       <sub>875 notes, 1 finding in 187 checked claims.</sub><br/>
-      <a href="https://github.com/JordanSerafini/aura-core/blob/main/docs/vault.md">Read the case study</a>
+      <a href="https://github.com/TinkerBell-90/aura-core/blob/main/docs/vault.md">Read the case study</a>
     </td>
     <td width="50%" valign="top">
       <h4>📱 Phone, watch and desktop mascot</h4>
       Three clients on one server: notifications, phone actions, chat, a mascot that talks first.<br/><br/>
       <sub>About 16.9k lines of Kotlin, 333 unit tests across the phone and watch apps.</sub><br/>
-      <a href="https://github.com/JordanSerafini/aura-core/blob/main/docs/mobile-and-mascot.md">Read the case study</a>
+      <a href="https://github.com/TinkerBell-90/aura-core/blob/main/docs/mobile-and-mascot.md">Read the case study</a>
     </td>
   </tr>
 </table>
@@ -84,8 +84,8 @@ flowchart LR
 
 | Repo | What it is | Verified |
 |---|---|---|
-| [**aura-core**](https://github.com/JordanSerafini/aura-core) | Hybrid memory (SQLite + sqlite-vec + FTS5, RRF fusion), a retrieval benchmark (recall@3, MRR) and a markdown-driven scheduler | 65 tests pass in a fresh venv |
-| [**aura-android**](https://github.com/JordanSerafini/aura-android) | Phone app (Expo + a Kotlin native module) and Wear OS app. The backend is not included | 260 Kotlin tests (phone module) and 73 (watch) pass |
+| [**aura-core**](https://github.com/TinkerBell-90/aura-core) | Hybrid memory (SQLite + sqlite-vec + FTS5, RRF fusion), a retrieval benchmark (recall@3, MRR) and a markdown-driven scheduler | 65 tests pass in a fresh venv |
+| [**aura-android**](https://github.com/TinkerBell-90/aura-android) | Phone app (Expo + a Kotlin native module) and Wear OS app. The backend is not included | 260 Kotlin tests (phone module) and 73 (watch) pass |
 
 <details>
 <summary><b>What did not work (and what I am doing about it)</b></summary>
@@ -211,9 +211,9 @@ draft: "Hello, ... [to confirm: delivery date]"
 
 ## Some things I've built
 
-**[Compagnon Immo](https://github.com/JordanSerafini/Compagnon_Immo_DataScientest)** - price per m² prediction for French real estate. 5.9M listings, 101 départements, 2019-2026. Random Forest tuned with Optuna and enriched with INSEE socio-economic data, R² 0.958 / RMSE 402€ per m², SHAP for explainability and a Streamlit demo. My DataScientest capstone. I also caught and fixed a data leakage on the way (a feature with VIF 346 that was inflating the score), which is half the lesson.
+**[Compagnon Immo](https://github.com/TinkerBell-90/Compagnon_Immo_DataScientest)** - price per m² prediction for French real estate. 5.9M listings, 101 départements, 2019-2026. Random Forest tuned with Optuna and enriched with INSEE socio-economic data, R² 0.958 / RMSE 402€ per m², SHAP for explainability and a Streamlit demo. My DataScientest capstone. I also caught and fixed a data leakage on the way (a feature with VIF 346 that was inflating the score), which is half the lesson.
 
-**[MLOps Météo](https://github.com/JordanSerafini/MLOps_Meteo)** - rain prediction on Australian weather data. The model is deliberately simple, the real subject is the MLOps lifecycle: reproducible training, MLflow tracking and registry, a FastAPI serving layer, DVC for data versioning, the whole thing in Docker Compose.
+**[MLOps Météo](https://github.com/TinkerBell-90/MLOps_Meteo)** - rain prediction on Australian weather data. The model is deliberately simple, the real subject is the MLOps lifecycle: reproducible training, MLflow tracking and registry, a FastAPI serving layer, DVC for data versioning, the whole thing in Docker Compose.
 
 **Internal data platform** *(private, employer)* - a data-driven analytics layer on top of our EBP ERP. Bronze/silver/gold medallion ETL on PostgreSQL, fed from SQL Server, with several ML models in production: budget overrun prediction (CatBoost/XGBoost/LightGBM stacking, R² ~0.88), billing and project anomaly detection (Isolation Forest), revenue forecasting (Prophet). NestJS for the ETL and API, a decoupled FastAPI service for inference, Next.js dashboards on top.
 
@@ -221,9 +221,9 @@ draft: "Hello, ... [to confirm: delivery date]"
 
 **SportPoint** *(private)* - a sports coaching and community app. Microservices on NestJS behind an API gateway (auth, coaching, spots, chat, notifications), PostgreSQL/Prisma, and a React Native / Expo app. Where I practice splitting a monolith mindset into services.
 
-**AURA** *(partly open source)* - my personal AI orchestrator. See [the section above](#aura-a-personal-ai-orchestrator-that-works-while-i-dont), with [aura-core](https://github.com/JordanSerafini/aura-core) and [aura-android](https://github.com/JordanSerafini/aura-android) public.
+**AURA** *(partly open source)* - my personal AI orchestrator. See [the section above](#aura-a-personal-ai-orchestrator-that-works-while-i-dont), with [aura-core](https://github.com/TinkerBell-90/aura-core) and [aura-android](https://github.com/TinkerBell-90/aura-android) public.
 
-**[Vélib DPM](https://github.com/JordanSerafini/Velib_DataScientest)** - a data product management case study on the Paris bike-share: personas, KPI framework, 12-month roadmap, MVP design. No ML here, it's the product side of data.
+**[Vélib DPM](https://github.com/TinkerBell-90/Velib_DataScientest)** - a data product management case study on the Paris bike-share: personas, KPI framework, 12-month roadmap, MVP design. No ML here, it's the product side of data.
 
 ## Stack
 
